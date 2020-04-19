@@ -1,0 +1,12 @@
+@use '../foundation/color';
+@use '../foundation/typography';
+
+@mixin primary {
+  @include typography.body-medium(#fff);
+  background-color: color.$brand-color;
+}
+
+@mixin default {
+  @include typography.body-medium(color.$text1);
+  background-color: color.$background2;
+}

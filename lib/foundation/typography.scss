@@ -1,0 +1,29 @@
+@use '../foundation/color';
+
+@mixin title-large($color: color.$text1) {
+  font-size: 32px;
+  line-height: 32px + 2 * 4;
+  font-weight: bold;
+  color: $color;
+}
+
+@mixin title-medium($color: color.$text1) {
+  font-size: 20px;
+  line-height: 20px + 2 * 4;
+  font-weight: bold;
+  color: $color;
+}
+
+@mixin title-small($color: color.$text1) {
+  font-size: 16px;
+  line-height: 16px + 2 * 4;
+  font-weight: bold;
+  color: $color;
+}
+
+@mixin body-medium($color: color.$text1) {
+  font-size: 16px;
+  line-height: 16px + 2 * 4;
+  font-weight: normal;
+  color: $color;
+}

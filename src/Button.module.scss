@@ -1,0 +1,5 @@
+@use '../lib/components/button.scss';
+
+.Button {
+  @include button.primary;
+}
